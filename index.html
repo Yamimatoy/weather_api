@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 class="title">
+        WEATHER API
+</h1>
+
+<header class="search-box">
+
+        <div class="input-form">
+            <input class="input" id="location" name="text" type="text" required="">
+            <label class="textUser">Longitude, Latitude</label>
+        </div>
+
+        <button onclick="fetchWeather()">SEARCH</button>
+
+</header>
+
+<main id="weather-container">
+
+        <div class="container">
+
+            <div class="c1">
+                <h1><p id="location1"></p></h1>
+                <p id="country"></p>
+            </div>
+    
+            <div class="c2">
+                <h2><p id="cloud"></p></h2>
+                <img id="weather-icon" src="" alt="">
+                <h3 id="condition"></h3>
+                <p id="temperature"></p>
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <div class="parent">
+                <div class="c3">
+                    <h4 id="latitude"></h4>
+                    <h4 id="localtime"></h4>
+                    <h4 id="epoch"></h4>
+                    <h4 id="longitude"></h4>
+                    <h4 id="name"></h4>
+                    <h4 id="region"></h4>
+                    <h4 id="tz_id"></h4>
+                </div>
+            </div>
+
+        </div>
+
+</main>
+
+    <script src="script.js"></script>
+</body>
+</html>
