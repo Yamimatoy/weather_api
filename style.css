@@ -59,7 +59,7 @@ main{
 
 .c1{
     /* border: solid 2px blue; */
-    height: 100px;
+    height: 130px;
     width: 100%;
     top: 0;
     backdrop-filter: blur(100px);
